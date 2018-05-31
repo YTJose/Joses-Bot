@@ -11,7 +11,7 @@ const log = message => {
 };
 
 client.on("ready", () => {
-	  client.user.setActivity('Sub To TRG The Gamers',  {type: 'Streaming' });
+	  client.user.setActivity('Sub To TRG The Gamers.. +help',  {type: 'Streaming' });
 });
 
 client.commands = new Discord.Collection();
